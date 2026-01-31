@@ -1,0 +1,357 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: aqua;
+  margin: 0;
+  max-width: 1200%;
+  /* overflow: hidden; */
+  /* padding: 1rem; */
+  /* color: white; */
+  /* margin-top: 90px; */
+}
+
+@mobile (max-width: 768px) {
+  body {
+    position: relative;
+    left:0;
+    width: 100%;
+  }
+}
+
+header, section, footer {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.header-site{
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 20px;
+}
+
+.header-site .nav-links ul {
+  text-decoration: none;
+  margin-left: 20px;
+font-weight: 500;
+color: #fff;
+list-style-type: none;
+}
+
+.nav-links ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  cursor: pointer; 
+  color: #4CAF50;
+}
+
+.hero-section {
+  padding: 3em 1em;
+  margin: 0.2em;
+  background-color: blue;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero-section p {
+  font-size:0.5em ;
+}
+
+.hero-section .start-btn {
+  padding: 1em;
+  margin: 0.5em;
+  color: #fff;
+  background-color: green;
+  border-radius: 1em;
+  font-weight: bold;
+}
+
+.hero-section .start-btn:hover {
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+.first {
+  background-color: #885614;
+  padding: 1em;
+  margin: 0.1em;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.first:hover{
+  transform: translateY(-5px);
+}
+
+.first h2 {
+  margin-top: 1em;
+}
+
+.first ul{
+  text-align: left;
+  padding: 0.2em;
+}
+
+.first ul li {
+  padding: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.second {
+  background-color: burlywood;
+  padding: 1em;
+  margin: 0.1em;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.second:hover{
+  transform: translateY(-5px);
+}
+
+.second h2 {
+  margin-top: 1em;
+}
+
+.second ol{
+  text-align: left;
+    padding: 0.5em;
+}
+
+.second ol li {
+  padding: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.second p {
+  font-family: 'Times New Roman', Times, serif;
+  cursor: grab;
+  border-top: 1px solid red;
+}
+
+.steps {
+  background-color: #fff;
+  padding: 1em;
+  margin: 0.1em;
+  text-align: left;
+}
+
+
+.steps .steps1  {
+  margin: 1em;
+  padding: 2em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.steps .steps2  {
+  margin: 1em;
+  padding: 2em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.steps .steps3 {
+  margin: 1em;
+  padding: 2em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.steps .steps4  {
+  margin: 1em;
+  padding: 2em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.steps .steps5  {
+  margin: 1em;
+  padding: 2em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.steps-read h2 {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.steps-read {
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 1em;
+  text-align: left;
+  background-color: goldenrod;
+  border-radius: 1em;
+ cursor: grab;
+}
+
+.steps-read:hover {
+  transform: translateY(10px);
+}
+
+.third {
+  background-color: #885614;
+  padding: 1em;
+  margin: 0.1em;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.third:hover{
+  transform: translateY(-5px);
+}
+
+.third h2 {
+  margin-top: 1em;
+}
+
+.third ul{
+  text-align: left;
+  padding: 0.2em;
+}
+
+.third ul li {
+  padding: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.fourth {
+  background-color: burlywood;
+  padding: 1em;
+  margin: 0.1em;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.fourth:hover{
+  transform: translateY(-3px);
+}
+
+
+.fourth h2 {
+  margin-top: 1em;
+}
+
+.fourth ol{
+  text-align: left;
+    padding: 0.5em;
+}
+
+.fourth ol li {
+  padding: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.faq-section {
+  background-color: tomato;
+  padding: 2em;
+}
+
+.faq-section h2 {
+  font-size: 900;
+  background-color: red;
+  padding: 0.2em;
+  margin-bottom: 1em;
+}
+
+.faq-section details summary {
+  cursor: pointer;
+  margin-bottom: 0.1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq-section details .read-me {
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
+  cursor: default;
+}
+
+.faq-section details .read-me:hover {
+  transform: rotate(2deg);
+}
+
+.footer-section{
+  background-color: grey;
+}
+
+.footer-section .contact{
+  margin-bottom: 1em;
+}
+
+.contact {
+  text-align: center;
+}
+.contact h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.contact .contact-me{
+  padding:0.3em;
+  margin-top: 1em;
+  border: 1px solid green;
+  border-radius: 1em;
+  background-color: green;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.contact .contact-me:hover{
+  background-color: #2e6e30;
+}
+
+.footer-section .about-guide {
+  background-color: #5d5858;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.footer-section .dev-name {
+  border-top: 1px solid white;
+  padding: 0.1em;
+  margin-top: 1em;
+  text-align: center;
+  cursor: copy;
+}
